@@ -44,6 +44,8 @@
 }
 /*Common styles*/
 body{
+  background-color: var(--bg-color-body);
+  color: var(--primary-color);
     font-family: "DM Sans",
     sans-serif;
     font-style: normal;
