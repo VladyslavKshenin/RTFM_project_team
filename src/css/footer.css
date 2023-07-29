@@ -26,7 +26,8 @@
     margin-bottom: 14px;
 }
 
-.footer-nav-list {
+.footer-nav-list,
+.footer-networks-wrap {
     margin-bottom: 40px;
 }
 
@@ -87,3 +88,20 @@
         margin-bottom: 24px;
     }
 }
+.footer-copyright {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+.footer-copyright-text {
+    color: var(--secondary-color);
+    font-size: 12px;
+    line-height: 1.18;
+    letter-spacing: 0.36px;
+}
+.footer-copyright-link {
+    color: var(--secondary-color);
+    font-size: 12px;
+    line-height: 1.18;
+    letter-spacing: 0.36px;
+} 
