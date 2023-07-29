@@ -32,6 +32,7 @@
   --bg-btn-hero: #93ABAE;
   --bg-btn-hero-hover: #88B3B9;
   --bg-btn-up-top: #93ABAE;
+  --transition-function: cubic-bezier(0.4, 0, 0.2, 1);
   
 
   /* Other */
