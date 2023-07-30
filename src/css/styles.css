@@ -34,6 +34,9 @@
   --bg-btn-up-top: #93ABAE;
   --fill-ship: #D9D9D9;
   --transition-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --yacht-bg-gradient: rgba(17, 19, 31, 0.85);
+  --yacht-blur-ellipse-left: #91AFBA;
+  --yacht-blur-ellipse-right: #A6A9B2;
   
 
   /* Other */
