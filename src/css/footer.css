@@ -1,7 +1,9 @@
 .footer {
     padding: 44px 0 14px;
 }
-
+.footer-top {
+    
+}
 .footer-logo {
     display: inline-flex;
     align-items: center;
@@ -39,7 +41,6 @@
     line-height: 1.18;
     letter-spacing: 0.42px;
     text-transform: uppercase;
-    color: var(--white, #F6F5EF);
 }
 
 .footer-networks-text {
@@ -149,14 +150,32 @@
     }
 }
 
-@media only screen and (min-widht: 1280px) {
+@media only screen and (min-width: 1280px) {
+
+    .footer {
+        padding: 74px 0 16px;
+    }
+
+    .footer-wrapper {
+        justify-content: space-between;
+    }
+
+    .footer-nav-list {
+        display: flex;
+        gap: 24px;
+        margin-right: 0;
+    }
+
+    .footer-logo {
+        width: 215px;
+        margin-right: 0;
+    }
     
 }
 
 .blur {
     width: 420px;
     height: 420px;
-    /* backdrop-filter: blur(200px); */
     transform: rotate(-45deg);
     border-radius: 420px;
     opacity: 0.6;
