@@ -3,7 +3,29 @@
     padding-bottom: 40px;
 }
 
+@media only screen and (min-width: 768px) {
+  .hero-section {
+    padding-top: 64px;
+    padding-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+    .hero-section {
+    padding-bottom: 82px;
+    }
+}
+
 .hero-container {}
+
+@media only screen and (min-width: 1280px) {
+  .hero-container {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 236px;
+    align-items: center;
+  }
+}
 
 .hero-title {
     margin-bottom: 14px;
@@ -17,10 +39,25 @@
     letter-spacing: -1.62px;
 }
 
+@media only screen and (min-width: 768px) {
+  .hero-title
+   {
+    margin-bottom: 16px;
+
+    font-size: 60px;
+    letter-spacing: -2.7px;
+  }
+}
 .title-part{
     background: linear-gradient(107deg, #BEC7C2 0%, #A1B5BA 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+@media only screen and (min-width: 768px) {
+  .title-part {
+    font-style: italic;
+  }
 }
 
 .hero-text {
@@ -32,6 +69,16 @@
     letter-spacing: -0.28px;
 }
 
+@media only screen and (min-width: 768px) {
+  .hero-text
+   {
+    margin-bottom: 32px;
+    padding-right: 165px;
+
+    font-size: 16px;
+    letter-spacing: -0.32px;
+  }
+}
 .hero-controls {
     margin-bottom: 40px;
     
@@ -39,6 +86,13 @@
     gap: 8px;
 }
 
+@media only screen and (min-width: 768px) {
+  .hero-controls
+   {
+    margin-bottom: 64px;
+    gap: 11px;
+  }
+}
 .btn {
     cursor: pointer;
     display: inline-flex;
@@ -47,13 +101,21 @@
 
     padding: 14px 28px;
 
-    font-weight: 600;
+    font-weight: 700;
     font-size: 14px;
     line-height: 1.21;
 
     background-color: transparent;
     border: 1px solid transparent;
     border-radius: 60px;
+}
+
+@media only screen and (min-width: 768px) {
+  .btn {
+    font-size: 18px;
+    line-height: 1.1;
+    letter-spacing: -0.81px;
+  }
 }
 
 .accent-btn {
@@ -83,7 +145,7 @@
 }
 
 .mask-container {
-    background-image: url(../img/hero-images/mask-mob@1x.png);
+    background-image: url(/img/hero-images/mask-mob@1x.png);
     background-size: 335px 427px;
     min-height: 427px;
     min-width: 335px;
@@ -93,12 +155,42 @@
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .mask-container {
-        background-image: url(../img/hero-images/mask-mob@2x.png);
+        background-image: url(/img/hero-images/mask-mob@2x.png);
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .mask-container {
+            background-image: url(/img/hero-images/mask-tb-ds@1x.png);
+            min-height: 598px;
+            max-width: 426px;
+            background-size: contain;
+    }
+        @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+            .mask-container {
+                background-image: url(/img/hero-images/mask-tb-ds@2x.png);
+            }
+        }
+}
+
+@media only screen and (min-width: 1280px) {
+    .mask-container {
+        background-image: url(/img/hero-images/mask-tb-ds@1x.png);
+        min-height: 598px;
+        min-width: 426px;
+        background-size: contain;
     }
 }
 
 .clients-container {
     padding: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+  .clients-container
+   {
+    padding: 32px;
+  }
 }
 
 .list {}
@@ -109,7 +201,29 @@
     display: flex;
 }
 
-.client-img {}
+.client-item{
+position: relative;
+}
+
+.client-item{
+    z-index: 5;
+}
+
+.client-item:not(:first-child) {
+    margin-left: -10px;
+    z-index: 4;
+}
+
+.client-item:nth-child(3) {
+    z-index: 3;
+}
+
+@media only screen and (min-width: 768px) {
+  .client-img {
+      width: 56px;
+      height: 56px;
+  } 
+}
 
 .clients-text {
     color: var(--bg-color-body);
@@ -124,6 +238,14 @@
     margin: 28px 24px 14px 24px;
 }
 
+@media only screen and (min-width: 768px) {
+  .yaht-img {
+      margin: 78px 24px 24px 24px;
+      width: 378px;
+      height: 221px;
+  } 
+}
+
 .description-text {
     color: var(--bg-color-body);
     font-style: normal;
@@ -132,9 +254,17 @@
     display: flex;
     gap: 14px;
     align-items: center;
+    justify-content: center;
 
     padding-left: 24px;
     padding-right: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+  .description-text {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 }
 
 .yaht-cost {
@@ -144,10 +274,25 @@
     text-transform: uppercase;
 }
 
+@media only screen and (min-width: 768px) {
+  .yaht-cost
+   {
+    font-size: 60px;
+    letter-spacing: -2.7px;
+  }
+}
 .description {
     font-size: 14px;
     line-height: 140%;
     letter-spacing: -0.63px;
+}
+
+@media only screen and (min-width: 768px) {
+  .description {
+    font-size: 18px;
+    line-height: 110%;
+    letter-spacing: -0.81px;
+  }
 }
 
 .owner-img {
@@ -156,10 +301,25 @@
     right: -12px;
 }
 
-.elipse {
+@media only screen and (min-width: 768px) {
+  .owner-img {
+    width: 233px;
+    height: 233px;
+    top: 32px;
+    right: -146px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+    .owner-img {
+    right: -112px;
+    }
+}
+
+.hero-elipse {
   position: absolute;
   top: 28px;
-  left: -220px;
+  left: -130px;
   z-index: -1;
 
 
@@ -171,4 +331,83 @@
   background: #939CAC;
   filter: blur(100px);
   transform: rotate(-44.916deg);
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-elipse {
+    width: 414px;
+    height: 414px;
+
+    top: 130px;
+    left: -220px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+    .hero-elipse {
+        top: 220px;
+        left: -35px;
+    }
+}
+
+.hero-elipse2 {
+    position: absolute;
+    top: -10px;
+    left: -250px;
+    z-index: -1;
+    
+    
+    width: 279px;
+    height: 279px;
+    
+    border-radius: 279px;
+    opacity: 0.6;
+    background: #91AFBA;
+    filter: blur(100px);
+    transform: rotate(-44.916deg);
+}
+
+@media only screen and (min-width: 768px) {
+    .hero-elipse2 {
+        width: 414px;
+        height: 414px;
+
+        top: 80px;
+        left: -460px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .hero-elipse2 {
+        top: 160px;
+        left: -280px;
+    }
+}
+
+.hero-elipse3 {}
+
+@media only screen and (min-width: 768px) {
+    .hero-elipse3 {
+        position: absolute;
+        top: 100px;
+        left: 40px;
+        z-index: -1;
+    
+    
+        width: 317px;
+        height: 317px;
+        
+        border-radius: 317px;
+        opacity: 0.3;
+        background: #A6A9B2;
+        filter: blur(100px);
+        transform: rotate(-45.074deg);
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .hero-elipse3 {
+        top: 180px;
+        left: 170px;
+    }
 }
