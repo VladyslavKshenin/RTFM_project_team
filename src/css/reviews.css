@@ -126,6 +126,11 @@
   color: var(--white);
   text-align: center;
 }
+@media only screen and (min-width: 768px) {
+  .reviews-name {
+    font-size: 18px;
+  }
+}
 .reviews-text {
   font-size: 12px;
   font-style: normal;
