@@ -108,7 +108,6 @@
   height: 48px;
   margin-bottom: 18px;
 }
-
 @media only screen and (min-width: 768px) {
   .reviews-photo {
     width: 56px;
@@ -144,7 +143,16 @@
     letter-spacing: -0.32px;
   }
 }
-
+@media only screen and (min-width: 768px) {
+  .reviews-name {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .reviews-text {
+    font-size: 16px;
+  }
+}
 .reviews-heading {
   display: flex;
   flex-direction: column;
