@@ -1,3 +1,2 @@
-import './js/back-to-top.js'
-import './js/smooth-scroll.js'
-import './js/swiper.js'
+import './src/modal.js';
+import './src/mobile-menu.js';
