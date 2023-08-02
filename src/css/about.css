@@ -28,6 +28,7 @@
 
 .about-block-text-list{
     margin-right: 32px;
+    width: 400px;
     gap: 32px;
     display: flex;
     padding-bottom: 64px;
@@ -70,13 +71,10 @@
   border-radius: 24px;
   margin-right: 648px;
   margin-left: 372px;
-  margin-top: 1724px;
-  margin-bottom: 3853px;
-  padding-bottom: 32px;
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 375px){
   .about-block-div{
     width: 335px;
     height: 145px;
@@ -137,20 +135,18 @@
     margin-left: 20px;
     margin-right: 20px;
     padding-top: 24px;
+    padding-bottom: 24px;
   }
 
   .about-block-image3{
     width: 260px;
     margin-left: 95px;
     margin-right: 20px;
-    padding-top: 24px;
     border-radius: 24px;
-    margin-top: 2266px;
-    margin-bottom: 3502px;
   }
 }
 
-@media screen and (min-width: 767.8px){
+@media screen and (min-width: 768px){
   .about-block-div{
     width: 514px;
     height: 152px;
@@ -175,7 +171,9 @@
   .about-block-text-list{
     margin-right: 32px;
     margin-left: 336px;
+    width: 400px;
     gap: 32px;
+    justify-content: flex-end;
   }
 
   .about-block-text-li1{
@@ -207,13 +205,11 @@
   .about-block-image3{
     margin-right: 136px;
     margin-left: 372px;
-    margin-top: 2560px;
-    margin-bottom: 4062px;
     width: 260px;
   }
 }
 
-@media screen and (min-width: 1158px){
+@media screen and (min-width: 1280px){
 
 .about-block-text{
     color: #F6F5EF;
@@ -241,6 +237,7 @@
 
 .about-block-text-list{
     margin-right: 32px;
+    width: 400px;
     gap: 32px;
     display: flex;
     padding-bottom: 64px;
@@ -284,9 +281,6 @@
   border-radius: 24px;
   margin-right: 648px;
   margin-left: 372px;
-  margin-top: 1724px;
-  margin-bottom: 3853px;
   padding-bottom: 32px;
-
 }
 }
