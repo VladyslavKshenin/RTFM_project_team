@@ -15,8 +15,8 @@
     />
     <!--Custom styles-->
     
-    <script type="module" crossorigin src="/RTFM_project_team/assets/index-80d27f41.js"></script>
-    <link rel="stylesheet" href="/RTFM_project_team/assets/index-32106a25.css">
+    <script type="module" crossorigin src="/RTFM_project_team/assets/index-0c0c1122.js"></script>
+    <link rel="stylesheet" href="/RTFM_project_team/assets/index-bb9a79fd.css">
   </head>
   <body>
     <!-- Top line -->
@@ -79,14 +79,12 @@
     <li><a href="#reviews" class="link">Reviews</a></li>
   </ul>
 </div>
-<script defer src="mobile-menu.js"></script>
-<script defer src="modal.js"></script>
 
 
     <!-- Main Block -->
     <main>
       <!-- Андрій Крайник -->
-      <section class="hero-section">
+      <!-- <section class="hero-section">
     <div class="hero-container container">
         <div>
             <h1 class="hero-title">
@@ -107,8 +105,11 @@
                     <li class="client-item">
                         <img 
                             class="client-img" 
-                            srcset="/RTFM_project_team/assets/client-1mob@1x-5f9853a1.png 1x, /RTFM_project_team/assets/client-1mob@2x-37e8d8bc.png 2x" 
-                            src="/RTFM_project_team/assets/client-1mob@1x-5f9853a1.png"
+                            srcset="
+                                ./img/hero-images/client-1mob@1x.png 1x,
+                                ./img/hero-images/client-1mob@2x.png 2x
+                            " 
+                            src="./img/hero-images/client-1mob@1x.png"
                             alt="client image" 
                             width="48" 
                             height="48" 
@@ -117,8 +118,11 @@
                     <li class="client-item">
                         <img 
                             class="client-img" 
-                            srcset="/RTFM_project_team/assets/client-2mob@1x-1febe218.png 1x, /RTFM_project_team/assets/client-2mob@2x-54b2ac6a.png 2x" 
-                            src="/RTFM_project_team/assets/client-2mob@1x-1febe218.png"
+                            srcset="
+                                ./img/hero-images/client-2mob@1x.png 1x,
+                                ./img/hero-images/client-2mob@2x.png 2x
+                            " 
+                            src="./img/hero-images/client-2mob@1x.png"
                             alt="client image" 
                             width="48" 
                             height="48" 
@@ -127,8 +131,11 @@
                     <li class="client-item">
                         <img 
                             class="client-img" 
-                            srcset="/RTFM_project_team/assets/client-3mob@1x-eebc6b02.png 1x, /RTFM_project_team/assets/client-3mob@2x-e8ca12b2.png 2x"
-                            src="/RTFM_project_team/assets/client-3mob@1x-eebc6b02.png" 
+                            srcset="
+                                ./img/hero-images/client-3mob@1x.png 1x,
+                                ./img/hero-images/client-3mob@2x.png 2x
+                            "
+                            src="./img/hero-images/client-3mob@1x.png" 
                             alt="client image" 
                             width="48" 
                             height="48" 
@@ -141,8 +148,11 @@
             </div>
             <img 
                 class="yaht-img" 
-                srcset="/RTFM_project_team/assets/yaht-mob@1x-c513c870.png 1x, /RTFM_project_team/assets/yaht-mob@2x-3233e84a.png 2x"
-                src="/RTFM_project_team/assets/yaht-mob@1x-c513c870.png" 
+                srcset="
+                    ./img/hero-images/yaht-mob@1x.png 1x,
+                    ./img/hero-images/yaht-mob@2x.png 2x
+                "
+                src="./img/hero-images/yaht-mob@1x.png" 
                 alt="yaht" 
                 width="287" 
                 height="167" 
@@ -157,8 +167,11 @@
             </div>
             <img 
                 class="owner-img" 
-                srcset="/RTFM_project_team/assets/owner-mob@1x-7b370974.png 1x, /RTFM_project_team/assets/owner-mob@2x-f6beef96.png 2x"
-                src="/RTFM_project_team/assets/owner-mob@1x-7b370974.png" 
+                srcset="
+                    ./img/hero-images/owner-mob@1x.png 1x,
+                    ./img/hero-images/owner-mob@2x.png 2x
+                "
+                src="./img/hero-images/owner-mob@1x.png" 
                 alt="Owner of yaht" 
                 width="133" 
                 height="133" 
@@ -168,7 +181,7 @@
             <div class="hero-elipse3"></div>
         </div>
     </div>
-</section>
+</section> -->
 
       <!-- Евгения Бублик -->
       <section class="about-block-section"  id="about">
@@ -556,75 +569,123 @@
 
       <!-- Едуард Радочин -->
       <section class="rent-yacht-section">
-    <div class="rent-yacht-block container">
-        <!-- Rent image  -->
-        <div class="rent-yacht-image">
-            <h3 class="rent-yacht-heading">Rent a yacht now</h3>
-            <img src="./image/yaht-rent-big.png" alt="Rent yacht now" class="rent-yacht-img"
-                srcset="./image/yaht-rent-big.png, ./image/yaht-rent-big2.jpg" />
-        </div>
-        <!-- Form container  -->
-        <div class="rent-yacht-form-container">
-            <form class="rent-yacht-form">
-                <div class="rent-yacht-form-container">
-                    <label for="user-name" class="rent-yacht-input-label"></label>
-                    <div class="rent-yacht-input-container">
-                        <input type="text" placeholder="Full Name" name="user-name" id="user-name"
-                            class="rent-yacht-input" />
-                    </div>
-                </div>
-                <div class="rent-yacht-form-container">
-                    <label for="user-email" class="rent-yacht-input-label"></label>
-                    <div class="rent-yacht-input-container">
-                        <input type="email" placeholder="Email" class="rent-yacht-input" name="user-email"
-                            id="user-email" />
-                    </div>
-                </div>
-                <div class="rent-yacht-form-container">
-                    <label for="user-phone" class="rent-yacht-input-label"></label>
-                    <div class="rent-yacht-input-container">
-                        <input type="tel" placeholder="Phone Number" class="rent-yacht-input" name="user-phone"
-                            id="user-phone" />
-                    </div>
-                </div>
-                <div class="rent-yacht-textarea-container">
-                    <label for="user-comment" class="rent-yacht-input-label"></label>
-                    <textarea name="user-comment" id="user-comment" cols="30" rows="10" placeholder="Comment"
-                        class="rent-yacht-textarea"></textarea>
-                </div>
-                <button class="rent-yacht-send-button" type="submit" data-modal-open>
-                    Send<svg class="send-arrows-icon" width="18" height="8">
-                        <use href="./image/icons.svg#arrow_stroke"></use>
-                    </svg>
-                </button>
-            </form>
-        </div>
-        <div class="ellipse-section-rent-7275"></div>
-        <!-- Modal window  -->
-        <div class="backdrop is-hidden" data-modal>
-            <div class="modal-window">
-                <button class="modal-btn" type="button" data-modal-close>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                        <path d="M15 5L5 15" stroke="#F6F5EF" stroke-width="1.3" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                        <path d="M5 5L15 15" stroke="#F6F5EF" stroke-width="1.3" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                    </svg>
-                </button>
-                <img src="./image/img-modal-mob.png" srcset="./image/img-modal-mob.png"
-                    alt="Thank you for confirming your order" class="modal-image" />
-                <h3 class="modal-heading">Thank You</h3>
-                <p class="modal-p">Thank you for choosing Yacht Adventures, your booking details have been received and
-                    our team will be in
-                    touch shortly to confirm your reservation and provide any additional information or assistance you
-                    may
-                    need.</p>
-            </div>
-            <div class="ellipse-7268"></div>
-        </div>
+  <div class="rent-yacht-block container">
+    <!-- Rent image  -->
+    <div class="rent-yacht-image">
+      <h3 class="rent-yacht-heading">Rent a yacht now</h3>
+      <img
+        src="/RTFM_project_team/assets/yaht-rent-big-f6346df3.png"
+        alt="Rent yacht now"
+        class="rent-yacht-img"
+        srcset="
+          ./img/rent/yaht-rent-big.png 1x,
+          ./img/ren/yaht-rent-big2.jpg 2x
+        "
+      />
     </div>
+    <!-- Form container  -->
+    <div class="rent-yacht-form-container">
+      <form class="rent-yacht-form">
+        <div class="rent-yacht-form-container">
+          <label for="user-name" class="rent-yacht-input-label"></label>
+          <div class="rent-yacht-input-container">
+            <input
+              type="text"
+              placeholder="Full Name"
+              name="user-name"
+              id="user-name"
+              class="rent-yacht-input"
+            />
+          </div>
+        </div>
+        <div class="rent-yacht-form-container">
+          <label for="user-email" class="rent-yacht-input-label"></label>
+          <div class="rent-yacht-input-container">
+            <input
+              type="email"
+              placeholder="Email"
+              class="rent-yacht-input"
+              name="user-email"
+              id="user-email"
+            />
+          </div>
+        </div>
+        <div class="rent-yacht-form-container">
+          <label for="user-phone" class="rent-yacht-input-label"></label>
+          <div class="rent-yacht-input-container">
+            <input
+              type="tel"
+              placeholder="Phone Number"
+              class="rent-yacht-input"
+              name="user-phone"
+              id="user-phone"
+            />
+          </div>
+        </div>
+        <div class="rent-yacht-textarea-container">
+          <label for="user-comment" class="rent-yacht-input-label"></label>
+          <textarea
+            name="user-comment"
+            id="user-comment"
+            cols="30"
+            rows="10"
+            placeholder="Comment"
+            class="rent-yacht-textarea"
+          ></textarea>
+        </div>
+        <button class="rent-yacht-send-button" type="submit" data-modal-open>
+          Send<svg class="send-arrows-icon" width="18" height="8">
+            <use href="/RTFM_project_team/assets/icons-58d63e2f.svg#icon-arrow-right"></use>
+          </svg>
+        </button>
+      </form>
+    </div>
+    <!-- <div class="ellipse-section-rent-7275"></div> -->
+    <!-- Modal window  -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal-window">
+        <button class="modal-btn" type="button" data-modal-close>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            fill="none"
+          >
+            <path
+              d="M15 5L5 15"
+              stroke="#F6F5EF"
+              stroke-width="1.3"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M5 5L15 15"
+              stroke="#F6F5EF"
+              stroke-width="1.3"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+        <img
+          src="/RTFM_project_team/assets/img-modal-mob-fe9796bb.png"
+          srcset="/RTFM_project_team/assets/img-modal-mob-fe9796bb.png "
+          alt="Thank you for confirming your order"
+          class="modal-image"
+        />
+        <h3 class="modal-heading">Thank You</h3>
+        <p class="modal-p">
+          Thank you for choosing Yacht Adventures, your booking details have
+          been received and our team will be in touch shortly to confirm your
+          reservation and provide any additional information or assistance you
+          may need.
+        </p>
+      </div>
+      <div class="ellipse-7268"></div>
+    </div>
+  </div>
 </section>
-<script defer src=".js/modal-menu-open_close.js"></script>
 
 
       <!-- Alina Stadnyk -->
