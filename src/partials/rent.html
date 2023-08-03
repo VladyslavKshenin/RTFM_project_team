@@ -1,10 +1,10 @@
+
 <section class="rent-yacht-section">
     <div class="rent-yacht-block container">
         <!-- Rent image  -->
         <div class="rent-yacht-image">
             <h3 class="rent-yacht-heading">Rent a yacht now</h3>
-            <img src="./image/yaht-rent-big.png" alt="Rent yacht now" class="rent-yacht-img"
-                srcset="./image/yaht-rent-big.png, ./image/yaht-rent-big2.jpg" />
+            <img srcset="./src/img/rent/yaht-rent-big.png" alt="Rent yacht now" class="rent-yacht-img"/>
         </div>
         <!-- Form container  -->
         <div class="rent-yacht-form-container">
@@ -36,8 +36,10 @@
                         class="rent-yacht-textarea"></textarea>
                 </div>
                 <button class="rent-yacht-send-button" type="submit" data-modal-open>
-                    Send<svg class="send-arrows-icon" width="18" height="8">
-                        <use href="./image/icons.svg#arrow_stroke"></use>
+                    <span class="rent-yacht-send-text">Send</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="9" viewBox="0 0 18 9" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12.5 0.169922L18 4.50005L12.5 8.83018V5.25005L0 5.25005L0 3.75005L12.5 3.75005V0.169922Z" fill="#F6F5EF" />
                     </svg>
                 </button>
             </form>
@@ -54,7 +56,7 @@
                             stroke-linejoin="round" />
                     </svg>
                 </button>
-                <img src="./image/img-modal-mob.png" srcset="./image/img-modal-mob.png"
+                <img srcset="./src/img/rent/img-modal-mob.png"
                     alt="Thank you for confirming your order" class="modal-image" />
                 <h3 class="modal-heading">Thank You</h3>
                 <p class="modal-p">Thank you for choosing Yacht Adventures, your booking details have been received and
@@ -68,3 +70,4 @@
     </div>
 </section>
 <script defer src=".js/modal-menu-open_close.js"></script>
+<script defer src="./js/modal.js"></script>

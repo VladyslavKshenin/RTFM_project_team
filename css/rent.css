@@ -180,6 +180,10 @@ body {
         background-color: inherit;
     }
 
+    .rent-yacht-send-text {
+        margin-right: 16px;
+    }
+
     .send-arrows-icon {
         fill: var(--white-cl);
         margin-left: 16px;

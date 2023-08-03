@@ -191,7 +191,7 @@ body {
         position: fixed;
         width: 283px;
         height: 283px;
-        bottom: -85px;
+        top: 400px;
         right: 20px;
         transform: rotate(-45deg);
         flex-shrink: 0;
