@@ -21,9 +21,16 @@
   }
 }
 
-.reviews-title-accent {
-  background-color: --linear-green;
+.reviews-heading-accent {
+  color: --linear-green;
   font-style: italic;
+  background: var(
+    --linear-green,
+    linear-gradient(107deg, #bec7c2 0%, #a1b5ba 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .reviews-desc {
@@ -34,7 +41,7 @@
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 120%;
+  line-height: 140%;
   letter-spacing: -0.28px;
   margin-bottom: 40px;
 }
@@ -68,14 +75,13 @@
   flex-direction: column;
   align-items: center;
   width: 335px;
-  padding: 24px;
+  padding: 24px 19px 24px 21px;
   border-radius: 24px;
   background: var(--bg-colo-card);
 }
 @media only screen and (min-width: 768px) {
   .reviews-item {
     width: 344px;
-    padding: 24px 32px;
   }
 }
 @media only screen and (min-width: 1280px) {
@@ -102,16 +108,28 @@
   height: 48px;
   margin-bottom: 18px;
 }
+@media only screen and (min-width: 768px) {
+  .reviews-photo {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 24px;
+  }
+}
 .reviews-name {
   margin-bottom: 8px;
   margin-top: 0;
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 110%;
   letter-spacing: -0.81px;
   color: var(--white);
   text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  .reviews-name {
+    font-size: 18px;
+  }
 }
 .reviews-text {
   font-size: 12px;
@@ -120,8 +138,26 @@
   letter-spacing: -0.24px;
   color: var(--secondary-color);
   text-align: center;
+  align-self: stretch;
+  line-height: 140%;
+  width: 100%;
 }
-
+@media only screen and (min-width: 768px) {
+  .reviews-text {
+    font-size: 16px;
+    letter-spacing: -0.32px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .reviews-name {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .reviews-text {
+    font-size: 16px;
+  }
+}
 .reviews-heading {
   display: flex;
   flex-direction: column;
@@ -130,5 +166,21 @@
   .reviews-heading {
     flex-direction: row;
     justify-content: space-between;
+  }
+}
+.reviews-section {
+  padding-top: 40px;
+  padding-bottom: 53.5px;
+}
+@media only screen and (min-width: 768px) {
+  .reviews-section {
+    padding-top: 50px;
+    padding-bottom: 72.5px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .reviews-section {
+    padding-top: 82px;
+    padding-bottom: 82px;
   }
 }
