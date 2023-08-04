@@ -1,3 +1,21 @@
+
+.services {
+    padding-bottom: 80px;
+}
+
+@media only screen and (min-width: 768px) {
+.services {
+        padding-bottom: 100px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+.services {
+        padding-bottom: 164px;
+    }
+}
+
+
 .services-title {
     display: none;
 }
