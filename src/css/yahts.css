@@ -17,7 +17,6 @@
 
 .yacht-container {
   position: relative;
-  overflow: hidden;
 }
 
 @media only screen and (min-width: 1280px) {
@@ -59,10 +58,10 @@
   position: absolute;
   top: -45px;
   left: -60px;
-  width: 255px;
-  height: 255px;
+  width: 218px;
+  height: 218px;
   border-radius: 50%;
-  transform: rotate(44deg);
+  transform: rotate(90deg);
   background-color: var(--yacht-blur-ellipse-left);
   opacity: 0.6;
   filter: blur(100px);
@@ -72,74 +71,58 @@
 .yacht-blur-ellipse-right {
   position: absolute;
   top: -30px;
-  left: 205px;
-  width: 195px;
-  height: 195px;
+  left: 150px;
+  width: 167px;
+  height: 167px;
   border-radius: 50%;
-  transform: rotate(45deg);
+  transform: rotate(90deg);
   background-color: var(--yacht-blur-ellipse-right);
   opacity: 0.3;
   filter: blur(100px);
   z-index: -1;
 }
 
+@media only screen and (min-width: 375px) {
+  .yacht-blur-ellipse-left {
+    width: 255px;
+    height: 255px;
+  }
+
+  .yacht-blur-ellipse-right {
+    left: 180px;
+    width: 195px;
+    height: 195px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .yacht-blur-ellipse-left {
-    position: absolute;
     top: -90px;
     left: 30px;
     width: 399px;
     height: 399px;
-    border-radius: 50%;
-    transform: rotate(44deg);
-    background-color: var(--yacht-blur-ellipse-left);
-    opacity: 0.6;
-    filter: blur(100px);
-    z-index: -1;
   }
 
   .yacht-blur-ellipse-right {
-    position: absolute;
     top: -60px;
     left: 430px;
     width: 304px;
     height: 304px;
-    border-radius: 50%;
-    transform: rotate(45deg);
-    background-color: var(--yacht-blur-ellipse-right);
-    opacity: 0.3;
-    filter: blur(100px);
-    z-index: -1;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .yacht-blur-ellipse-left {
-    position: absolute;
     top: -60px;
     left: 260px;
     width: 414px;
     height: 414px;
-    border-radius: 50%;
-    transform: rotate(45deg);
-    background-color: var(--yacht-blur-ellipse-left);
-    opacity: 0.6;
-    filter: blur(100px);
-    z-index: -1;
   }
 
   .yacht-blur-ellipse-right {
-    position: absolute;
-    top: -60px;
     left: 730px;
     width: 316px;
     height: 316px;
-    border-radius: 50%;
-    transform: rotate(45deg);
-    background-color: var(--yacht-blur-ellipse-right);
-    opacity: 0.3;
-    filter: blur(100px);
-    z-index: -1;
   }
 }
 
