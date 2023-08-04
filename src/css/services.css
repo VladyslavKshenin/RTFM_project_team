@@ -1,4 +1,6 @@
-
+.services-title {
+    display: none;
+}
 
 .services-img {
     border-radius: 40px;
