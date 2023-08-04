@@ -46,6 +46,10 @@
     margin-bottom: 14px;
 }
 
+.footer-nav-items {
+    line-height: 1.06;
+}
+
 .footer-nav-list,
 .footer-wrapper,
 .footer-networks-wrap {
@@ -176,7 +180,9 @@
         margin-bottom: 0;
         text-align: center;
     }
-
+    .footer-networks-wrap {
+        margin-bottom: 0;
+    }
     .footer-networks-items {
         width: 40px;
         height: 40px;
@@ -282,7 +288,7 @@
     position: fixed;
     display: none;
     right: 20px;
-    bottom: 372px;
+    bottom: 380px;
 }
 
 .back-to-top--show {
@@ -297,12 +303,15 @@
         width: 68px;
         height: 68px;
     }
-
+    .back-to-top {
+        right: 32px;
+        bottom: 328px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
-    .back-to-top-btn {
-        bottom: 316px;
+    .back-to-top {
+        bottom: 332px;
     }
 }
 

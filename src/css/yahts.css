@@ -3,24 +3,21 @@
   | YACHT SECTION STYLES
   |============================
 */
-.yacht-section {
-  padding-bottom: 80px;
+@media only screen and (max-width: 767px) {
+  .yacht-section {
+    padding-bottom: 80px;
+  }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
   .yacht-section {
     padding-bottom: 100px;
   }
 }
 
-@media only screen and (min-width: 1280px) {
-  .yacht-section {
-    padding-bottom: 164px;
-  }
-}
-
 .yacht-container {
   position: relative;
+  overflow: hidden;
 }
 
 @media only screen and (min-width: 1280px) {

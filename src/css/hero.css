@@ -148,9 +148,10 @@
     background-image: url(/img/hero-images/mask-mob@1x.png);
     background-size: 335px 427px;
     min-height: 427px;
-    min-width: 335px;
+    min-width: 100%;
     background-repeat: no-repeat;
     position: relative;
+    border-radius: 18px;
 }
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
@@ -165,6 +166,7 @@
             min-height: 598px;
             max-width: 426px;
             background-size: contain;
+            border-radius: none;
     }
         @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
             .mask-container {
@@ -193,7 +195,7 @@
   }
 }
 
-.list {}
+
 
 .clients-list {
     margin-bottom: 13px;
@@ -235,12 +237,12 @@ position: relative;
 }
 
 .yaht-img {
-    margin: 28px 24px 14px 24px;
+    padding: 28px 24px 14px 24px;
 }
 
 @media only screen and (min-width: 768px) {
   .yaht-img {
-      margin: 78px 24px 24px 24px;
+      padding: 78px 24px 24px 24px;
       width: 378px;
       height: 221px;
   } 
@@ -306,11 +308,11 @@ position: relative;
     width: 233px;
     height: 233px;
     top: 32px;
-    right: -146px;
+    right: 140px;
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1280px) {
     .owner-img {
     right: -112px;
     }
