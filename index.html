@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="Yacht Adventures" content="Luxury Yacht Charter" />
-    <link rel="icon" type="image/svg+xml" href="/RTFM_project_team/ship-icon.svg" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/RTFM_project_team/ship-icon.svg"
+    />
     <title>Yacht Adventures</title>
 
     <!--Normalize-->
@@ -14,832 +18,939 @@
       rel="stylesheet"
     />
     <!--Custom styles-->
-    
-    <script type="module" crossorigin src="/RTFM_project_team/assets/index-fdd85441.js"></script>
-    <link rel="stylesheet" href="/RTFM_project_team/assets/index-d233acf9.css">
+
+    <script
+      type="module"
+      crossorigin
+      src="/RTFM_project_team/assets/index-fdd85441.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="/RTFM_project_team/assets/index-d233acf9.css"
+    />
   </head>
   <body>
     <!-- Top line -->
 
     <!-- Владислав Костюченко -->
     <header>
-  <div class="container header-container">
-    <nav class="navigation">
-      <a href="" class="header-logo">
-        <svg class="header-icon" height="23" width="20">
-          <use href="/RTFM_project_team/assets/icons-58d63e2f.svg#icon-ship"></use>
-        </svg>
-        Yacht Adventures</a
-      >
-      <ul class="header-list list">
-        <li>
-          <a class="header-link" href="">About</a>
-        </li>
-        <li>
-          <a class="header-link" href=""> Yachts </a>
-        </li>
-        <li>
-          <a class="header-link" href="">Reviews</a>
-        </li>
+      <div class="container header-container">
+        <nav class="navigation">
+          <a href="" class="header-logo">
+            <svg class="header-icon" height="23" width="20">
+              <use
+                href="/RTFM_project_team/assets/icons-58d63e2f.svg#icon-ship"
+              ></use>
+            </svg>
+            Yacht Adventures</a
+          >
+          <ul class="header-list list">
+            <li>
+              <a class="header-link" href="#about">About</a>
+            </li>
+            <li>
+              <a class="header-link" href="#yancts"> Yachts </a>
+            </li>
+            <li>
+              <a class="header-link" href="#reviews">Reviews</a>
+            </li>
+          </ul>
+          <button
+            class="menu-toggle mobile-menu-toggle-icon js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg class="mobile-menu-icon" height="20" width="14">
+              <use
+                href="/RTFM_project_team/assets/icons-58d63e2f.svg#icon-burge-btn"
+              ></use>
+            </svg>
+          </button>
+        </nav>
+        <div class="vector"></div>
+      </div>
+    </header>
+
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <div class="container header-container">
+        <nav class="navigation">
+          <a href="./index.html" class="header-logo">
+            <svg class="header-icon" height="20" width="23">
+              <use
+                href="/RTFM_project_team/assets/icons-58d63e2f.svg#icon-ship"
+              ></use>
+            </svg>
+            Yacht Adventures</a
+          >
+          <button class="menu-toggle js-close-menu">
+            <svg fill="currentColor" viewBox="0 0 32 32" width="32" height="32">
+              <use
+                href="/RTFM_project_team/assets/icons-58d63e2f.svg#icon-close"
+              ></use>
+            </svg>
+          </button>
+        </nav>
+        <div class="vector"></div>
+      </div>
+      <ul class="mobile-menu">
+        <li><a href="#about" class="link">About</a></li>
+        <li><a href="#yachts" class="link">Yachts</a></li>
+        <li><a href="#reviews" class="link">Reviews</a></li>
       </ul>
-      <button
-        class="menu-toggle mobile-menu-toggle-icon js-open-menu"
-        aria-expanded="false"
-        aria-controls="mobile-menu"
-      >
-        <svg class="mobile-menu-icon" height="20" width="14">
-          <use href="/RTFM_project_team/assets/icons-58d63e2f.svg#icon-burge-btn"></use>
-        </svg>
-      </button>
-    </nav>
-    <div class="vector"></div>
-  </div>
-</header>
-
-<div class="menu-container js-menu-container" id="mobile-menu">
-  <div class="container header-container">
-    <nav class="navigation">
-      <a href="./index.html" class="header-logo">
-        <svg class="header-icon" height="20" width="23">
-          <use href="/RTFM_project_team/assets/icons-58d63e2f.svg#icon-ship"></use>
-        </svg>
-        Yacht Adventures</a
-      >
-      <button class="menu-toggle js-close-menu">
-        <svg fill="currentColor" viewBox="0 0 32 32" width="32" height="32">
-          <use href="/RTFM_project_team/assets/icons-58d63e2f.svg#icon-close"></use>
-        </svg>
-      </button>
-    </nav>
-    <div class="vector"></div>
-  </div>
-  <ul class="mobile-menu">
-    <li><a href="#about" class="link">About</a></li>
-    <li><a href="#yachts" class="link">Yachts</a></li>
-    <li><a href="#reviews" class="link">Reviews</a></li>
-  </ul>
-</div>
-
+    </div>
 
     <!-- Main Block -->
     <main>
       <!-- Андрій Крайник -->
       <section class="hero-section">
-  <div class="hero-container container">
-    <div>
-      <h1 class="hero-title">
-        Explore the High Seas with
-        <span class="title-part">Our Luxury Yacht</span> Rentals
-      </h1>
-      <p class="hero-text">
-        Experience the freedom and luxury of yachting on the open seas. Choose
-        from our top-of-the-line yachts and embark on an unforgettable journey
-        surrounded by breathtaking views and state-of-the-art amenities.
-      </p>
-      <div class="hero-controls">
-        <button class="btn accent-btn" type="button">Get Started</button>
-        <a class="btn primary-btn" href="#services">Explore</a>
-      </div>
-    </div>
-    <div class="mask-container">
-      <div class="clients-container">
-        <ul class="list clients-list">
-          <li class="client-item">
+        <div class="hero-container container">
+          <div>
+            <h1 class="hero-title">
+              Explore the High Seas with
+              <span class="title-part">Our Luxury Yacht</span> Rentals
+            </h1>
+            <p class="hero-text">
+              Experience the freedom and luxury of yachting on the open seas.
+              Choose from our top-of-the-line yachts and embark on an
+              unforgettable journey surrounded by breathtaking views and
+              state-of-the-art amenities.
+            </p>
+            <div class="hero-controls">
+              <button class="btn accent-btn" type="button">Get Started</button>
+              <a class="btn primary-btn" href="#services">Explore</a>
+            </div>
+          </div>
+          <div class="mask-container">
+            <div class="clients-container">
+              <ul class="list clients-list">
+                <li class="client-item">
+                  <img
+                    class="client-img"
+                    srcset="
+                      /RTFM_project_team/assets/client-1mob@1x-5f9853a1.png 1x,
+                      /RTFM_project_team/assets/client-1mob@2x-37e8d8bc.png 2x
+                    "
+                    src="/RTFM_project_team/assets/client-1mob@1x-5f9853a1.png"
+                    alt="client image"
+                    width="48"
+                    height="48"
+                  />
+                </li>
+                <li class="client-item">
+                  <img
+                    class="client-img"
+                    srcset="
+                      /RTFM_project_team/assets/client-2mob@1x-1febe218.png 1x,
+                      /RTFM_project_team/assets/client-2mob@2x-54b2ac6a.png 2x
+                    "
+                    src="/RTFM_project_team/assets/client-2mob@1x-1febe218.png"
+                    alt="client image"
+                    width="48"
+                    height="48"
+                  />
+                </li>
+                <li class="client-item">
+                  <img
+                    class="client-img"
+                    srcset="
+                      /RTFM_project_team/assets/client-3mob@1x-eebc6b02.png 1x,
+                      /RTFM_project_team/assets/client-3mob@2x-e8ca12b2.png 2x
+                    "
+                    src="/RTFM_project_team/assets/client-3mob@1x-eebc6b02.png"
+                    alt="client image"
+                    width="48"
+                    height="48"
+                  />
+                </li>
+              </ul>
+              <p class="clients-text">OUR CLIENTS</p>
+            </div>
             <img
-              class="client-img"
-              srcset="/RTFM_project_team/assets/client-1mob@1x-5f9853a1.png 1x, /RTFM_project_team/assets/client-1mob@2x-37e8d8bc.png 2x"
-              src="/RTFM_project_team/assets/client-1mob@1x-5f9853a1.png"
-              alt="client image"
-              width="48"
-              height="48"
+              class="yaht-img"
+              srcset="
+                /RTFM_project_team/assets/yaht-mob@1x-c513c870.png 1x,
+                /RTFM_project_team/assets/yaht-mob@2x-3233e84a.png 2x
+              "
+              src="/RTFM_project_team/assets/yaht-mob@1x-c513c870.png"
+              alt="yaht"
             />
-          </li>
-          <li class="client-item">
+            <div class="description-text">
+              <p class="yaht-cost">$12M</p>
+              <p class="description">
+                Book now and make your dream yacht rental a reality
+              </p>
+            </div>
             <img
-              class="client-img"
-              srcset="/RTFM_project_team/assets/client-2mob@1x-1febe218.png 1x, /RTFM_project_team/assets/client-2mob@2x-54b2ac6a.png 2x"
-              src="/RTFM_project_team/assets/client-2mob@1x-1febe218.png"
-              alt="client image"
-              width="48"
-              height="48"
+              class="owner-img"
+              srcset="
+                /RTFM_project_team/assets/owner-mob@1x-7b370974.png 1x,
+                /RTFM_project_team/assets/owner-mob@2x-f6beef96.png 2x
+              "
+              src="/RTFM_project_team/assets/owner-mob@1x-7b370974.png"
+              alt="Owner of yaht"
+              width="133"
+              height="133"
             />
-          </li>
-          <li class="client-item">
-            <img
-              class="client-img"
-              srcset="/RTFM_project_team/assets/client-3mob@1x-eebc6b02.png 1x, /RTFM_project_team/assets/client-3mob@2x-e8ca12b2.png 2x"
-              src="/RTFM_project_team/assets/client-3mob@1x-eebc6b02.png"
-              alt="client image"
-              width="48"
-              height="48"
-            />
-          </li>
-        </ul>
-        <p class="clients-text">OUR CLIENTS</p>
-      </div>
-      <img
-        class="yaht-img"
-        srcset="/RTFM_project_team/assets/yaht-mob@1x-c513c870.png 1x, /RTFM_project_team/assets/yaht-mob@2x-3233e84a.png 2x"
-        src="/RTFM_project_team/assets/yaht-mob@1x-c513c870.png"
-        alt="yaht"
-      />
-      <div class="description-text">
-        <p class="yaht-cost">$12M</p>
-        <p class="description">
-          Book now and make your dream yacht rental a reality
-        </p>
-      </div>
-      <img
-        class="owner-img"
-        srcset="/RTFM_project_team/assets/owner-mob@1x-7b370974.png 1x, /RTFM_project_team/assets/owner-mob@2x-f6beef96.png 2x"
-        src="/RTFM_project_team/assets/owner-mob@1x-7b370974.png"
-        alt="Owner of yaht"
-        width="133"
-        height="133"
-      />
-      <div class="hero-elipse"></div>
-      <div class="hero-elipse2"></div>
-      <div class="hero-elipse3"></div>
-    </div>
-  </div>
-</section>
-
+            <div class="hero-elipse"></div>
+            <div class="hero-elipse2"></div>
+            <div class="hero-elipse3"></div>
+          </div>
+        </div>
+      </section>
 
       <!-- Евгения Бублик -->
       <section class="container about-block-section" id="about">
-  <div class="about-block-div">
-    <h3 class="about-block-text">
-      <a href="./index.html" class="about-block-link">Yacht Adventures </a>fleet
-      is here to take you on the ultimate adventure. Each yacht is hand-picked
-      for its comfort, style, and performance.
-    </h3>
-  </div>
-  <ul class="about-block-text-list">
-    <li class="about-block-text-li">
-      <p class="about-block-second-text">
-        From spacious decks to state-of-the-art technology, our yachts are
-        designed to provide the perfect blend of luxury and functionality. Take
-        a look at our selection below and choose the yacht that matches your
-        needs and preferences.
-      </p>
-    </li>
-    <li class="about-block-text-li">
-      <p class="about-block-second-text">
-        No matter which yacht you choose, our experienced crew will ensure that
-        your journey is smooth and enjoyable. Book now and get ready for an
-        unforgettable adventure on the high seas.
-      </p>
-    </li>
-  </ul>
-  <div class="about-img-wrapper">
-    <img
-      class="about-block-image1"
-      srcset="/RTFM_project_team/assets/the-biggest-yaht-b7a829e9.png 1x, /RTFM_project_team/assets/the-biggest-yaht2-fd406fa5.png 2x"
-      src="/RTFM_project_team/assets/the-biggest-yaht-b7a829e9.png"
-      alt="the-biggest-yaht"
-    />
+        <div class="about-block-div">
+          <h3 class="about-block-text">
+            <a href="./index.html" class="about-block-link">Yacht Adventures </a
+            >fleet is here to take you on the ultimate adventure. Each yacht is
+            hand-picked for its comfort, style, and performance.
+          </h3>
+        </div>
+        <ul class="about-block-text-list">
+          <li class="about-block-text-li">
+            <p class="about-block-second-text">
+              From spacious decks to state-of-the-art technology, our yachts are
+              designed to provide the perfect blend of luxury and functionality.
+              Take a look at our selection below and choose the yacht that
+              matches your needs and preferences.
+            </p>
+          </li>
+          <li class="about-block-text-li">
+            <p class="about-block-second-text">
+              No matter which yacht you choose, our experienced crew will ensure
+              that your journey is smooth and enjoyable. Book now and get ready
+              for an unforgettable adventure on the high seas.
+            </p>
+          </li>
+        </ul>
+        <div class="about-img-wrapper">
+          <img
+            class="about-block-image1"
+            srcset="
+              /RTFM_project_team/assets/the-biggest-yaht-b7a829e9.png  1x,
+              /RTFM_project_team/assets/the-biggest-yaht2-fd406fa5.png 2x
+            "
+            src="/RTFM_project_team/assets/the-biggest-yaht-b7a829e9.png"
+            alt="the-biggest-yaht"
+          />
 
-    <img
-      class="about-block-image2"
-      srcset="/RTFM_project_team/assets/big-yaht-4163a3af.png 1x, /RTFM_project_team/assets/big-yaht2-1b927322.png 2x"
-      src="/RTFM_project_team/assets/big-yaht-4163a3af.png"
-      alt="big-yaht"
-    />
+          <img
+            class="about-block-image2"
+            srcset="
+              /RTFM_project_team/assets/big-yaht-4163a3af.png  1x,
+              /RTFM_project_team/assets/big-yaht2-1b927322.png 2x
+            "
+            src="/RTFM_project_team/assets/big-yaht-4163a3af.png"
+            alt="big-yaht"
+          />
 
-    <img
-      class="about-block-image3"
-      srcset="/RTFM_project_team/assets/small-yaht-11c0e294.png 1x, /RTFM_project_team/assets/small-yaht2-3d31fb17.png 2x"
-      src="/RTFM_project_team/assets/small-yaht-11c0e294.png"
-      alt="small-yaht"
-    />
-  </div>
-</section>
-
+          <img
+            class="about-block-image3"
+            srcset="
+              /RTFM_project_team/assets/small-yaht-11c0e294.png  1x,
+              /RTFM_project_team/assets/small-yaht2-3d31fb17.png 2x
+            "
+            src="/RTFM_project_team/assets/small-yaht-11c0e294.png"
+            alt="small-yaht"
+          />
+        </div>
+      </section>
 
       <!-- Serhiy Belinskyy -->
       <section class="yacht-section" id="yacht">
-  <div class="yacht-container container">
-    <div class="yacht-blur-ellipse-left"></div>
-    <div class="yacht-blur-ellipse-right"></div>
-    <div class="yacht-header-container">
-      <h2 class="yacht-header">
-        Choose your dream yacht and sail away into the sunset
-      </h2>
-      <a class="yacht-anchor-link" href="#rent">Yacht rental</a>
-    </div>
-    <ul class="yacht-list">
-      <li class="yacht-card yacht-first-set">
-        <img
-          class="yacht-image"
-          srcset="/RTFM_project_team/assets/img-01@1x-7f625c95.png 1x, /RTFM_project_team/assets/img-01@2x-f3f3ebe4.png 2x"
-          src="/RTFM_project_team/assets/img-01@1x-7f625c95.png"
-          alt="white luxury yacht on the morning calm surface of the sea"
-        />
-        <div class="yacht-card-desc">
-          <div class="yacht-card-desc-top">
-            <h3 class="yacht-card-name">Arrow</h3>
-            <p class="yacht-list-name">LUXURY YAHTS</p>
+        <div class="yacht-container container">
+          <div class="yacht-blur-ellipse-left"></div>
+          <div class="yacht-blur-ellipse-right"></div>
+          <div class="yacht-header-container">
+            <h2 class="yacht-header">
+              Choose your dream yacht and sail away into the sunset
+            </h2>
+            <a class="yacht-anchor-link" href="#rent">Yacht rental</a>
           </div>
-          <div class="yacht-card-desc-bottom">
-            <ul>
-              <li class="yacht-left-param yacht-param-card">length</li>
-              <li class="yacht-left-param yacht-param-card">shipyard</li>
-              <li class="yacht-left-param yacht-param-card">built</li>
-              <li class="yacht-left-param yacht-param-card">guests</li>
-              <li class="yacht-left-param yacht-param-card">price</li>
-            </ul>
-            <ul>
-              <li class="yacht-param-card">48m (155ft)</li>
-              <li class="yacht-param-card">Admiral</li>
-              <li class="yacht-param-card">2021</li>
-              <li class="yacht-param-card">11 in 5 cabins</li>
-              <li class="yacht-param-card">€33,500,000</li>
-            </ul>
+          <ul class="yacht-list">
+            <li class="yacht-card yacht-first-set">
+              <img
+                class="yacht-image"
+                srcset="
+                  /RTFM_project_team/assets/img-01@1x-7f625c95.png 1x,
+                  /RTFM_project_team/assets/img-01@2x-f3f3ebe4.png 2x
+                "
+                src="/RTFM_project_team/assets/img-01@1x-7f625c95.png"
+                alt="white luxury yacht on the morning calm surface of the sea"
+              />
+              <div class="yacht-card-desc">
+                <div class="yacht-card-desc-top">
+                  <h3 class="yacht-card-name">Arrow</h3>
+                  <p class="yacht-list-name">LUXURY YAHTS</p>
+                </div>
+                <div class="yacht-card-desc-bottom">
+                  <ul>
+                    <li class="yacht-left-param yacht-param-card">length</li>
+                    <li class="yacht-left-param yacht-param-card">shipyard</li>
+                    <li class="yacht-left-param yacht-param-card">built</li>
+                    <li class="yacht-left-param yacht-param-card">guests</li>
+                    <li class="yacht-left-param yacht-param-card">price</li>
+                  </ul>
+                  <ul>
+                    <li class="yacht-param-card">48m (155ft)</li>
+                    <li class="yacht-param-card">Admiral</li>
+                    <li class="yacht-param-card">2021</li>
+                    <li class="yacht-param-card">11 in 5 cabins</li>
+                    <li class="yacht-param-card">€33,500,000</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="yacht-card yacht-second-set">
+              <img
+                class="yacht-image"
+                srcset="
+                  /RTFM_project_team/assets/img-02@1x-e400baaa.png 1x,
+                  /RTFM_project_team/assets/img-02@2x-4d307b8d.png 2x
+                "
+                src="/RTFM_project_team/assets/img-02@1x-e400baaa.png"
+                alt="luxury yacht on the turquoise surface of the sea against the backdrop of a mediterranean island"
+              />
+              <div class="yacht-card-desc">
+                <div class="yacht-card-desc-top">
+                  <h3 class="yacht-card-name">BENETTI OASIS 40M BO122</h3>
+                  <p class="yacht-list-name">LUXURY YAHTS</p>
+                </div>
+                <div class="yacht-card-desc-bottom">
+                  <ul>
+                    <li class="yacht-left-param yacht-param-card">length</li>
+                    <li class="yacht-left-param yacht-param-card">shipyard</li>
+                    <li class="yacht-left-param yacht-param-card">built</li>
+                    <li class="yacht-left-param yacht-param-card">guests</li>
+                    <li class="yacht-left-param yacht-param-card">price</li>
+                  </ul>
+                  <ul>
+                    <li class="yacht-param-card">41m (133ft)</li>
+                    <li class="yacht-param-card">Benetti</li>
+                    <li class="yacht-param-card">2025</li>
+                    <li class="yacht-param-card">10 in 5 cabins</li>
+                    <li class="yacht-param-card">€23,210,000</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="yacht-card yacht-third-set">
+              <img
+                class="yacht-image"
+                srcset="
+                  /RTFM_project_team/assets/img-03@1x-9bc67a20.png 1x,
+                  /RTFM_project_team/assets/img-03@2x-e498fc7f.png 2x
+                "
+                src="/RTFM_project_team/assets/img-03@1x-9bc67a20.png"
+                alt="luxury yacht makes a sharp turn in the open sea"
+              />
+              <div class="yacht-card-desc">
+                <div class="yacht-card-desc-top">
+                  <h3 class="yacht-card-name">BELLE ANNA</h3>
+                  <p class="yacht-list-name">LUXURY YAHTS</p>
+                </div>
+                <div class="yacht-card-desc-bottom">
+                  <ul>
+                    <li class="yacht-left-param yacht-param-card">length</li>
+                    <li class="yacht-left-param yacht-param-card">shipyard</li>
+                    <li class="yacht-left-param yacht-param-card">built</li>
+                    <li class="yacht-left-param yacht-param-card">guests</li>
+                    <li class="yacht-left-param yacht-param-card">price</li>
+                  </ul>
+                  <ul>
+                    <li class="yacht-param-card">50m (155ft)</li>
+                    <li class="yacht-param-card">ISA</li>
+                    <li class="yacht-param-card">2012</li>
+                    <li class="yacht-param-card">12 in 6 cabins</li>
+                    <li class="yacht-param-card">€21,000,000</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="yacht-card yacht-fourth-set">
+              <img
+                class="yacht-image"
+                srcset="
+                  /RTFM_project_team/assets/img-04@1x-a1041b68.png 1x,
+                  /RTFM_project_team/assets/img-04@2x-443b09bf.png 2x
+                "
+                src="/RTFM_project_team/assets/img-04@1x-a1041b68.png"
+                alt="bird's eye view of a luxury yacht under white sails in full wind on the sea waves"
+              />
+              <div class="yacht-card-desc">
+                <div class="yacht-card-desc-top">
+                  <h3 class="yacht-card-name">Ellen</h3>
+                  <p class="yacht-list-name">LUXURY YAHTS</p>
+                </div>
+                <div class="yacht-card-desc-bottom">
+                  <ul>
+                    <li class="yacht-left-param yacht-param-card">length</li>
+                    <li class="yacht-left-param yacht-param-card">shipyard</li>
+                    <li class="yacht-left-param yacht-param-card">built</li>
+                    <li class="yacht-left-param yacht-param-card">guests</li>
+                    <li class="yacht-left-param yacht-param-card">price</li>
+                  </ul>
+                  <ul>
+                    <li class="yacht-param-card">40m (132ft)</li>
+                    <li class="yacht-param-card">Perini Navi</li>
+                    <li class="yacht-param-card">2001 / 2016 (refitted)</li>
+                    <li class="yacht-param-card">9 in 4 cabins</li>
+                    <li class="yacht-param-card">€9,300,000</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="yacht-card yacht-fourth-set">
+              <img
+                class="yacht-image"
+                srcset="
+                  /RTFM_project_team/assets/img-05@1x-486734db.png 1x,
+                  /RTFM_project_team/assets/img-05@2x-ea6e450e.png 2x
+                "
+                src="/RTFM_project_team/assets/img-05@1x-486734db.png"
+                alt="three-deck white luxury yacht on the calm surface of the sea"
+              />
+              <div class="yacht-card-desc">
+                <div class="yacht-card-desc-top">
+                  <h3 class="yacht-card-name">MIRAGE 401</h3>
+                  <p class="yacht-list-name">LUXURY YAHTS</p>
+                </div>
+                <div class="yacht-card-desc-bottom">
+                  <ul>
+                    <li class="yacht-left-param yacht-param-card">length</li>
+                    <li class="yacht-left-param yacht-param-card">shipyard</li>
+                    <li class="yacht-left-param yacht-param-card">built</li>
+                    <li class="yacht-left-param yacht-param-card">guests</li>
+                    <li class="yacht-left-param yacht-param-card">price</li>
+                  </ul>
+                  <ul>
+                    <li class="yacht-param-card">38m (125ft)</li>
+                    <li class="yacht-param-card">Gianetti Custom Yachts</li>
+                    <li class="yacht-param-card">2024</li>
+                    <li class="yacht-param-card">10 in 5 cabins</li>
+                    <li class="yacht-param-card">€13,500,000</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="yacht-card yacht-fourth-set">
+              <img
+                class="yacht-image"
+                srcset="
+                  /RTFM_project_team/assets/img-06@1x-aebeeefd.png 1x,
+                  /RTFM_project_team/assets/img-06@2x-1718d0a3.png 2x
+                "
+                src="/RTFM_project_team/assets/img-06@1x-aebeeefd.png"
+                alt="white luxury yacht in the rays of the setting sun against the background of the resort town and mountains"
+              />
+              <div class="yacht-card-desc">
+                <div class="yacht-card-desc-top">
+                  <h3 class="yacht-card-name">KING</h3>
+                  <p class="yacht-list-name">LUXURY YAHTS</p>
+                </div>
+                <div class="yacht-card-desc-bottom">
+                  <ul>
+                    <li class="yacht-left-param yacht-param-card">length</li>
+                    <li class="yacht-left-param yacht-param-card">shipyard</li>
+                    <li class="yacht-left-param yacht-param-card">built</li>
+                    <li class="yacht-left-param yacht-param-card">guests</li>
+                    <li class="yacht-left-param yacht-param-card">price</li>
+                  </ul>
+                  <ul>
+                    <li class="yacht-param-card">33m (109ft)</li>
+                    <li class="yacht-param-card">Overmarine</li>
+                    <li class="yacht-param-card">2004 / 2018 (refitted)</li>
+                    <li class="yacht-param-card">9 in 4 cabins</li>
+                    <li class="yacht-param-card">€1,850,000</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="yacht-card yacht-fourth-set">
+              <img
+                class="yacht-image"
+                srcset="
+                  /RTFM_project_team/assets/img-07@1x-4d3e4d02.png 1x,
+                  /RTFM_project_team/assets/img-07@2x-3220973e.png 2x
+                "
+                src="/RTFM_project_team/assets/img-07@1x-4d3e4d02.png"
+                alt="white yacht against the backdrop of a rocky island with a lighthouse and sparse mediterranean vegetation"
+              />
+              <div class="yacht-card-desc">
+                <div class="yacht-card-desc-top">
+                  <h3 class="yacht-card-name">SALT</h3>
+                  <p class="yacht-list-name">LUXURY YAHTS</p>
+                </div>
+                <div class="yacht-card-desc-bottom">
+                  <ul>
+                    <li class="yacht-left-param yacht-param-card">length</li>
+                    <li class="yacht-left-param yacht-param-card">shipyard</li>
+                    <li class="yacht-left-param yacht-param-card">built</li>
+                    <li class="yacht-left-param yacht-param-card">guests</li>
+                    <li class="yacht-left-param yacht-param-card">price</li>
+                  </ul>
+                  <ul>
+                    <li class="yacht-param-card">32m (105ft)</li>
+                    <li class="yacht-param-card">SanLorenzo</li>
+                    <li class="yacht-param-card">2019</li>
+                    <li class="yacht-param-card">11 in 5 cabins</li>
+                    <li class="yacht-param-card">€7,800,000</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="yacht-card yacht-fourth-set">
+              <img
+                class="yacht-image"
+                srcset="
+                  /RTFM_project_team/assets/img-08@1x-feade711.png 1x,
+                  /RTFM_project_team/assets/img-08@2x-0f4f2807.png 2x
+                "
+                src="/RTFM_project_team/assets/img-08@1x-feade711.png"
+                alt="girls sunbathe on the bow of a white luxury yacht against the backdrop of an island with dense vegetation"
+              />
+              <div class="yacht-card-desc">
+                <div class="yacht-card-desc-top">
+                  <h3 class="yacht-card-name">STORM</h3>
+                  <p class="yacht-list-name">LUXURY YAHTS</p>
+                </div>
+                <div class="yacht-card-desc-bottom">
+                  <ul>
+                    <li class="yacht-left-param yacht-param-card">length</li>
+                    <li class="yacht-left-param yacht-param-card">shipyard</li>
+                    <li class="yacht-left-param yacht-param-card">built</li>
+                    <li class="yacht-left-param yacht-param-card">guests</li>
+                    <li class="yacht-left-param yacht-param-card">price</li>
+                  </ul>
+                  <ul>
+                    <li class="yacht-param-card">32m (103ft)</li>
+                    <li class="yacht-param-card">Overmarine</li>
+                    <li class="yacht-param-card">2005 / 2022 (refitted)</li>
+                    <li class="yacht-param-card">9 in 4 cabins</li>
+                    <li class="yacht-param-card">€2,900,000</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="yacht-card yacht-fourth-set">
+              <img
+                class="yacht-image"
+                srcset="
+                  /RTFM_project_team/assets/img-09@1x-b1c9b891.png 1x,
+                  /RTFM_project_team/assets/img-09@2x-2af70a34.png 2x
+                "
+                src="/RTFM_project_team/assets/img-09@1x-b1c9b891.png"
+                alt="white luxury yacht on the mirror surface of the sea against the backdrop of an island with a resort in the rays of the setting sun"
+              />
+              <div class="yacht-card-desc">
+                <div class="yacht-card-desc-top">
+                  <h3 class="yacht-card-name">COLLU</h3>
+                  <p class="yacht-list-name">LUXURY YAHTS</p>
+                </div>
+                <div class="yacht-card-desc-bottom">
+                  <ul>
+                    <li class="yacht-left-param yacht-param-card">length</li>
+                    <li class="yacht-left-param yacht-param-card">shipyard</li>
+                    <li class="yacht-left-param yacht-param-card">built</li>
+                    <li class="yacht-left-param yacht-param-card">guests</li>
+                    <li class="yacht-left-param yacht-param-card">price</li>
+                  </ul>
+                  <ul>
+                    <li class="yacht-param-card">29m (96ft)</li>
+                    <li class="yacht-param-card">Ferretti</li>
+                    <li class="yacht-param-card">2014</li>
+                    <li class="yacht-param-card">10 in 5 cabins</li>
+                    <li class="yacht-param-card">$4,300,000</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="yacht-slider-button-container">
+            <button type="button" class="yacht-slider-button">
+              <svg class="yacht-slider-icon" width="36" height="16">
+                <use
+                  href="/RTFM_project_team/assets/icons-58d63e2f.svg#icon-arrow-left"
+                ></use>
+              </svg>
+            </button>
+            <button type="button" class="yacht-slider-button">
+              <svg class="yacht-slider-icon" width="36" height="16">
+                <use
+                  href="/RTFM_project_team/assets/icons-58d63e2f.svg#icon-arrow-right"
+                ></use>
+              </svg>
+            </button>
           </div>
         </div>
-      </li>
-      <li class="yacht-card yacht-second-set">
-        <img
-          class="yacht-image"
-          srcset="/RTFM_project_team/assets/img-02@1x-e400baaa.png 1x, /RTFM_project_team/assets/img-02@2x-4d307b8d.png 2x"
-          src="/RTFM_project_team/assets/img-02@1x-e400baaa.png"
-          alt="luxury yacht on the turquoise surface of the sea against the backdrop of a mediterranean island"
-        />
-        <div class="yacht-card-desc">
-          <div class="yacht-card-desc-top">
-            <h3 class="yacht-card-name">BENETTI OASIS 40M BO122</h3>
-            <p class="yacht-list-name">LUXURY YAHTS</p>
-          </div>
-          <div class="yacht-card-desc-bottom">
-            <ul>
-              <li class="yacht-left-param yacht-param-card">length</li>
-              <li class="yacht-left-param yacht-param-card">shipyard</li>
-              <li class="yacht-left-param yacht-param-card">built</li>
-              <li class="yacht-left-param yacht-param-card">guests</li>
-              <li class="yacht-left-param yacht-param-card">price</li>
-            </ul>
-            <ul>
-              <li class="yacht-param-card">41m (133ft)</li>
-              <li class="yacht-param-card">Benetti</li>
-              <li class="yacht-param-card">2025</li>
-              <li class="yacht-param-card">10 in 5 cabins</li>
-              <li class="yacht-param-card">€23,210,000</li>
-            </ul>
-          </div>
-        </div>
-      </li>
-      <li class="yacht-card yacht-third-set">
-        <img
-          class="yacht-image"
-          srcset="/RTFM_project_team/assets/img-03@1x-9bc67a20.png 1x, /RTFM_project_team/assets/img-03@2x-e498fc7f.png 2x"
-          src="/RTFM_project_team/assets/img-03@1x-9bc67a20.png"
-          alt="luxury yacht makes a sharp turn in the open sea"
-        />
-        <div class="yacht-card-desc">
-          <div class="yacht-card-desc-top">
-            <h3 class="yacht-card-name">BELLE ANNA</h3>
-            <p class="yacht-list-name">LUXURY YAHTS</p>
-          </div>
-          <div class="yacht-card-desc-bottom">
-            <ul>
-              <li class="yacht-left-param yacht-param-card">length</li>
-              <li class="yacht-left-param yacht-param-card">shipyard</li>
-              <li class="yacht-left-param yacht-param-card">built</li>
-              <li class="yacht-left-param yacht-param-card">guests</li>
-              <li class="yacht-left-param yacht-param-card">price</li>
-            </ul>
-            <ul>
-              <li class="yacht-param-card">50m (155ft)</li>
-              <li class="yacht-param-card">ISA</li>
-              <li class="yacht-param-card">2012</li>
-              <li class="yacht-param-card">12 in 6 cabins</li>
-              <li class="yacht-param-card">€21,000,000</li>
-            </ul>
-          </div>
-        </div>
-      </li>
-      <li class="yacht-card yacht-fourth-set">
-        <img
-          class="yacht-image"
-          srcset="/RTFM_project_team/assets/img-04@1x-a1041b68.png 1x, /RTFM_project_team/assets/img-04@2x-443b09bf.png 2x"
-          src="/RTFM_project_team/assets/img-04@1x-a1041b68.png"
-          alt="bird's eye view of a luxury yacht under white sails in full wind on the sea waves"
-        />
-        <div class="yacht-card-desc">
-          <div class="yacht-card-desc-top">
-            <h3 class="yacht-card-name">Ellen</h3>
-            <p class="yacht-list-name">LUXURY YAHTS</p>
-          </div>
-          <div class="yacht-card-desc-bottom">
-            <ul>
-              <li class="yacht-left-param yacht-param-card">length</li>
-              <li class="yacht-left-param yacht-param-card">shipyard</li>
-              <li class="yacht-left-param yacht-param-card">built</li>
-              <li class="yacht-left-param yacht-param-card">guests</li>
-              <li class="yacht-left-param yacht-param-card">price</li>
-            </ul>
-            <ul>
-              <li class="yacht-param-card">40m (132ft)</li>
-              <li class="yacht-param-card">Perini Navi</li>
-              <li class="yacht-param-card">2001 / 2016 (refitted)</li>
-              <li class="yacht-param-card">9 in 4 cabins</li>
-              <li class="yacht-param-card">€9,300,000</li>
-            </ul>
-          </div>
-        </div>
-      </li>
-      <li class="yacht-card yacht-fourth-set">
-        <img
-          class="yacht-image"
-          srcset="/RTFM_project_team/assets/img-05@1x-486734db.png 1x, /RTFM_project_team/assets/img-05@2x-ea6e450e.png 2x"
-          src="/RTFM_project_team/assets/img-05@1x-486734db.png"
-          alt="three-deck white luxury yacht on the calm surface of the sea"
-        />
-        <div class="yacht-card-desc">
-          <div class="yacht-card-desc-top">
-            <h3 class="yacht-card-name">MIRAGE 401</h3>
-            <p class="yacht-list-name">LUXURY YAHTS</p>
-          </div>
-          <div class="yacht-card-desc-bottom">
-            <ul>
-              <li class="yacht-left-param yacht-param-card">length</li>
-              <li class="yacht-left-param yacht-param-card">shipyard</li>
-              <li class="yacht-left-param yacht-param-card">built</li>
-              <li class="yacht-left-param yacht-param-card">guests</li>
-              <li class="yacht-left-param yacht-param-card">price</li>
-            </ul>
-            <ul>
-              <li class="yacht-param-card">38m (125ft)</li>
-              <li class="yacht-param-card">Gianetti Custom Yachts</li>
-              <li class="yacht-param-card">2024</li>
-              <li class="yacht-param-card">10 in 5 cabins</li>
-              <li class="yacht-param-card">€13,500,000</li>
-            </ul>
-          </div>
-        </div>
-      </li>
-      <li class="yacht-card yacht-fourth-set">
-        <img
-          class="yacht-image"
-          srcset="/RTFM_project_team/assets/img-06@1x-aebeeefd.png 1x, /RTFM_project_team/assets/img-06@2x-1718d0a3.png 2x"
-          src="/RTFM_project_team/assets/img-06@1x-aebeeefd.png"
-          alt="white luxury yacht in the rays of the setting sun against the background of the resort town and mountains"
-        />
-        <div class="yacht-card-desc">
-          <div class="yacht-card-desc-top">
-            <h3 class="yacht-card-name">KING</h3>
-            <p class="yacht-list-name">LUXURY YAHTS</p>
-          </div>
-          <div class="yacht-card-desc-bottom">
-            <ul>
-              <li class="yacht-left-param yacht-param-card">length</li>
-              <li class="yacht-left-param yacht-param-card">shipyard</li>
-              <li class="yacht-left-param yacht-param-card">built</li>
-              <li class="yacht-left-param yacht-param-card">guests</li>
-              <li class="yacht-left-param yacht-param-card">price</li>
-            </ul>
-            <ul>
-              <li class="yacht-param-card">33m (109ft)</li>
-              <li class="yacht-param-card">Overmarine</li>
-              <li class="yacht-param-card">2004 / 2018 (refitted)</li>
-              <li class="yacht-param-card">9 in 4 cabins</li>
-              <li class="yacht-param-card">€1,850,000</li>
-            </ul>
-          </div>
-        </div>
-      </li>
-      <li class="yacht-card yacht-fourth-set">
-        <img
-          class="yacht-image"
-          srcset="/RTFM_project_team/assets/img-07@1x-4d3e4d02.png 1x, /RTFM_project_team/assets/img-07@2x-3220973e.png 2x"
-          src="/RTFM_project_team/assets/img-07@1x-4d3e4d02.png"
-          alt="white yacht against the backdrop of a rocky island with a lighthouse and sparse mediterranean vegetation"
-        />
-        <div class="yacht-card-desc">
-          <div class="yacht-card-desc-top">
-            <h3 class="yacht-card-name">SALT</h3>
-            <p class="yacht-list-name">LUXURY YAHTS</p>
-          </div>
-          <div class="yacht-card-desc-bottom">
-            <ul>
-              <li class="yacht-left-param yacht-param-card">length</li>
-              <li class="yacht-left-param yacht-param-card">shipyard</li>
-              <li class="yacht-left-param yacht-param-card">built</li>
-              <li class="yacht-left-param yacht-param-card">guests</li>
-              <li class="yacht-left-param yacht-param-card">price</li>
-            </ul>
-            <ul>
-              <li class="yacht-param-card">32m (105ft)</li>
-              <li class="yacht-param-card">SanLorenzo</li>
-              <li class="yacht-param-card">2019</li>
-              <li class="yacht-param-card">11 in 5 cabins</li>
-              <li class="yacht-param-card">€7,800,000</li>
-            </ul>
-          </div>
-        </div>
-      </li>
-      <li class="yacht-card yacht-fourth-set">
-        <img
-          class="yacht-image"
-          srcset="/RTFM_project_team/assets/img-08@1x-feade711.png 1x, /RTFM_project_team/assets/img-08@2x-0f4f2807.png 2x"
-          src="/RTFM_project_team/assets/img-08@1x-feade711.png"
-          alt="girls sunbathe on the bow of a white luxury yacht against the backdrop of an island with dense vegetation"
-        />
-        <div class="yacht-card-desc">
-          <div class="yacht-card-desc-top">
-            <h3 class="yacht-card-name">STORM</h3>
-            <p class="yacht-list-name">LUXURY YAHTS</p>
-          </div>
-          <div class="yacht-card-desc-bottom">
-            <ul>
-              <li class="yacht-left-param yacht-param-card">length</li>
-              <li class="yacht-left-param yacht-param-card">shipyard</li>
-              <li class="yacht-left-param yacht-param-card">built</li>
-              <li class="yacht-left-param yacht-param-card">guests</li>
-              <li class="yacht-left-param yacht-param-card">price</li>
-            </ul>
-            <ul>
-              <li class="yacht-param-card">32m (103ft)</li>
-              <li class="yacht-param-card">Overmarine</li>
-              <li class="yacht-param-card">2005 / 2022 (refitted)</li>
-              <li class="yacht-param-card">9 in 4 cabins</li>
-              <li class="yacht-param-card">€2,900,000</li>
-            </ul>
-          </div>
-        </div>
-      </li>
-      <li class="yacht-card yacht-fourth-set">
-        <img
-          class="yacht-image"
-          srcset="/RTFM_project_team/assets/img-09@1x-b1c9b891.png 1x, /RTFM_project_team/assets/img-09@2x-2af70a34.png 2x"
-          src="/RTFM_project_team/assets/img-09@1x-b1c9b891.png"
-          alt="white luxury yacht on the mirror surface of the sea against the backdrop of an island with a resort in the rays of the setting sun"
-        />
-        <div class="yacht-card-desc">
-          <div class="yacht-card-desc-top">
-            <h3 class="yacht-card-name">COLLU</h3>
-            <p class="yacht-list-name">LUXURY YAHTS</p>
-          </div>
-          <div class="yacht-card-desc-bottom">
-            <ul>
-              <li class="yacht-left-param yacht-param-card">length</li>
-              <li class="yacht-left-param yacht-param-card">shipyard</li>
-              <li class="yacht-left-param yacht-param-card">built</li>
-              <li class="yacht-left-param yacht-param-card">guests</li>
-              <li class="yacht-left-param yacht-param-card">price</li>
-            </ul>
-            <ul>
-              <li class="yacht-param-card">29m (96ft)</li>
-              <li class="yacht-param-card">Ferretti</li>
-              <li class="yacht-param-card">2014</li>
-              <li class="yacht-param-card">10 in 5 cabins</li>
-              <li class="yacht-param-card">$4,300,000</li>
-            </ul>
-          </div>
-        </div>
-      </li>
-    </ul>
-    <div class="yacht-slider-button-container">
-      <button type="button" class="yacht-slider-button">
-        <svg class="yacht-slider-icon" width="36" height="16">
-          <use href="/RTFM_project_team/assets/icons-58d63e2f.svg#icon-arrow-left"></use>
-        </svg>
-      </button>
-      <button type="button" class="yacht-slider-button">
-        <svg class="yacht-slider-icon" width="36" height="16">
-          <use href="/RTFM_project_team/assets/icons-58d63e2f.svg#icon-arrow-right"></use>
-        </svg>
-      </button>
-    </div>
-  </div>
-</section>
-
+      </section>
 
       <!-- Olexander Dneprovsky -->
       <section class="services" id="services">
-  <div class="container services-div">
-    <ul class="services-list">
-      <li class="services-li">
-        <div class="services-li-position">
-          <img
-            srcset="/RTFM_project_team/assets/diving-desc@1x-6ea65120.jpg 1x, /RTFM_project_team/assets/diving-desc@2x-33896a1b.jpg 2x"
-            src="/RTFM_project_team/assets/diving-desc@1x-6ea65120.jpg"
-            class="services-img"
-            alt="the man under water"
-            width="335"
-            height="335"
-          />
-          <button type="button" class="services-button">Diving</button>
-        </div>
-      </li>
-      <li class="services-li">
-        <div class="services-li-position">
-          <img
-            srcset="/RTFM_project_team/assets/fishing-desc@1x-897b02f0.jpg 1x, /RTFM_project_team/assets/fishing-desc@2x-222504c2.jpg 2x"
-            src="/RTFM_project_team/assets/fishing-desc@1x-897b02f0.jpg"
-            class="services-img"
-            alt="fishing"
-            width="335"
-            height="335"
-          />
+        <div class="container services-div">
+          <ul class="services-list">
+            <li class="services-li">
+              <div class="services-li-position">
+                <img
+                  srcset="
+                    /RTFM_project_team/assets/diving-desc@1x-6ea65120.jpg 1x,
+                    /RTFM_project_team/assets/diving-desc@2x-33896a1b.jpg 2x
+                  "
+                  src="/RTFM_project_team/assets/diving-desc@1x-6ea65120.jpg"
+                  class="services-img"
+                  alt="the man under water"
+                  width="335"
+                  height="335"
+                />
+                <button type="button" class="services-button">Diving</button>
+              </div>
+            </li>
+            <li class="services-li">
+              <div class="services-li-position">
+                <img
+                  srcset="
+                    /RTFM_project_team/assets/fishing-desc@1x-897b02f0.jpg 1x,
+                    /RTFM_project_team/assets/fishing-desc@2x-222504c2.jpg 2x
+                  "
+                  src="/RTFM_project_team/assets/fishing-desc@1x-897b02f0.jpg"
+                  class="services-img"
+                  alt="fishing"
+                  width="335"
+                  height="335"
+                />
 
-          <button type="button" class="services-button">Fishing</button>
-        </div>
-      </li>
+                <button type="button" class="services-button">Fishing</button>
+              </div>
+            </li>
 
-      <li class="services-li">
-        <div class="services-li-position">
-          <img
-            srcset="/RTFM_project_team/assets/sunbathing-desc@1x-d18c7b4f.jpg 1x, /RTFM_project_team/assets/sunbathing-desc@2x-2a0abbd3.jpg 2x"
-            src="/RTFM_project_team/assets/sunbathing-desc@1x-d18c7b4f.jpg"
-            class="services-img"
-            alt="beach umbrellas"
-            width="335"
-            height="335"
-          />
-          <button type="button" class="services-button">Sunbathing</button>
+            <li class="services-li">
+              <div class="services-li-position">
+                <img
+                  srcset="
+                    /RTFM_project_team/assets/sunbathing-desc@1x-d18c7b4f.jpg 1x,
+                    /RTFM_project_team/assets/sunbathing-desc@2x-2a0abbd3.jpg 2x
+                  "
+                  src="/RTFM_project_team/assets/sunbathing-desc@1x-d18c7b4f.jpg"
+                  class="services-img"
+                  alt="beach umbrellas"
+                  width="335"
+                  height="335"
+                />
+                <button type="button" class="services-button">
+                  Sunbathing
+                </button>
+              </div>
+            </li>
+          </ul>
         </div>
-      </li>
-    </ul>
-  </div>
-  <div class="linear-gradient-div"></div>
-</section>
-
+        <div class="linear-gradient-div"></div>
+      </section>
 
       <!-- Едуард Радочин -->
       <section class="rent-yacht-section">
-  <div class="rent-yacht-block container">
-    <!-- Rent image  -->
-    <div class="rent-yacht-image">
-      <h3 class="rent-yacht-heading">Rent a yacht now</h3>
-      <img
-        src="./img/rent/img-yaht@1x.jpg"
-        alt="Rent yacht now"
-        class="rent-yacht-img"
-        srcset="./img/rent/img-yaht@1x.jpg 1x, ./img/rent/img-yaht@2x.jpg 2x"
-      />
-    </div>
-    <!-- Form container  -->
-    <div class="rent-yacht-form-container">
-      <form class="rent-yacht-form">
-        <div class="rent-yacht-form-container">
-          <label for="user-name" class="rent-yacht-input-label"></label>
-          <div class="rent-yacht-input-container">
-            <input
-              type="text"
-              placeholder="Full Name"
-              name="user-name"
-              id="user-name"
-              class="rent-yacht-input"
+        <div class="rent-yacht-block container">
+          <!-- Rent image  -->
+          <div class="rent-yacht-image">
+            <h3 class="rent-yacht-heading">Rent a yacht now</h3>
+            <img
+              src="./img/rent/img-yaht@1x.jpg"
+              alt="Rent yacht now"
+              class="rent-yacht-img"
+              srcset="
+                ./img/rent/img-yaht@1x.jpg 1x,
+                ./img/rent/img-yaht@2x.jpg 2x
+              "
             />
           </div>
-        </div>
-        <div class="rent-yacht-form-container">
-          <label for="user-email" class="rent-yacht-input-label"></label>
-          <div class="rent-yacht-input-container">
-            <input
-              type="email"
-              placeholder="Email"
-              class="rent-yacht-input"
-              name="user-email"
-              id="user-email"
-            />
+          <!-- Form container  -->
+          <div class="rent-yacht-form-container">
+            <form class="rent-yacht-form">
+              <div class="rent-yacht-form-container">
+                <label for="user-name" class="rent-yacht-input-label"></label>
+                <div class="rent-yacht-input-container">
+                  <input
+                    type="text"
+                    placeholder="Full Name"
+                    name="user-name"
+                    id="user-name"
+                    class="rent-yacht-input"
+                  />
+                </div>
+              </div>
+              <div class="rent-yacht-form-container">
+                <label for="user-email" class="rent-yacht-input-label"></label>
+                <div class="rent-yacht-input-container">
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    class="rent-yacht-input"
+                    name="user-email"
+                    id="user-email"
+                  />
+                </div>
+              </div>
+              <div class="rent-yacht-form-container">
+                <label for="user-phone" class="rent-yacht-input-label"></label>
+                <div class="rent-yacht-input-container">
+                  <input
+                    type="tel"
+                    placeholder="Phone Number"
+                    class="rent-yacht-input"
+                    name="user-phone"
+                    id="user-phone"
+                  />
+                </div>
+              </div>
+              <div class="rent-yacht-textarea-container">
+                <label
+                  for="user-comment"
+                  class="rent-yacht-input-label"
+                ></label>
+                <textarea
+                  name="user-comment"
+                  id="user-comment"
+                  cols="30"
+                  rows="10"
+                  placeholder="Comment"
+                  class="rent-yacht-textarea"
+                ></textarea>
+              </div>
+              <button
+                class="rent-yacht-send-button"
+                type="submit"
+                data-modal-open
+              >
+                Send<svg class="send-arrows-icon" width="18" height="8">
+                  <use
+                    href="/RTFM_project_team/assets/icons-58d63e2f.svg#icon-arrow-right"
+                  ></use>
+                </svg>
+              </button>
+            </form>
+          </div>
+          <!-- <div class="ellipse-section-rent-7275"></div> -->
+          <!-- Modal window  -->
+          <div class="backdrop is-hidden" data-modal>
+            <div class="modal-window">
+              <button class="modal-btn" type="button" data-modal-close>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                >
+                  <path
+                    d="M15 5L5 15"
+                    stroke="#F6F5EF"
+                    stroke-width="1.3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M5 5L15 15"
+                    stroke="#F6F5EF"
+                    stroke-width="1.3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+              <img
+                src="/RTFM_project_team/assets/img-modal-mob-fe9796bb.png"
+                srcset="/RTFM_project_team/assets/img-modal-mob-fe9796bb.png"
+                alt="Thank you for confirming your order"
+                class="modal-image"
+              />
+              <h3 class="modal-heading">Thank You</h3>
+              <p class="modal-p">
+                Thank you for choosing Yacht Adventures, your booking details
+                have been received and our team will be in touch shortly to
+                confirm your reservation and provide any additional information
+                or assistance you may need.
+              </p>
+            </div>
+            <div class="ellipse-7268"></div>
           </div>
         </div>
-        <div class="rent-yacht-form-container">
-          <label for="user-phone" class="rent-yacht-input-label"></label>
-          <div class="rent-yacht-input-container">
-            <input
-              type="tel"
-              placeholder="Phone Number"
-              class="rent-yacht-input"
-              name="user-phone"
-              id="user-phone"
-            />
-          </div>
-        </div>
-        <div class="rent-yacht-textarea-container">
-          <label for="user-comment" class="rent-yacht-input-label"></label>
-          <textarea
-            name="user-comment"
-            id="user-comment"
-            cols="30"
-            rows="10"
-            placeholder="Comment"
-            class="rent-yacht-textarea"
-          ></textarea>
-        </div>
-        <button class="rent-yacht-send-button" type="submit" data-modal-open>
-          Send<svg class="send-arrows-icon" width="18" height="8">
-            <use href="/RTFM_project_team/assets/icons-58d63e2f.svg#icon-arrow-right"></use>
-          </svg>
-        </button>
-      </form>
-    </div>
-    <!-- <div class="ellipse-section-rent-7275"></div> -->
-    <!-- Modal window  -->
-    <div class="backdrop is-hidden" data-modal>
-      <div class="modal-window">
-        <button class="modal-btn" type="button" data-modal-close>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
-            viewBox="0 0 20 20"
-            fill="none"
-          >
-            <path
-              d="M15 5L5 15"
-              stroke="#F6F5EF"
-              stroke-width="1.3"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M5 5L15 15"
-              stroke="#F6F5EF"
-              stroke-width="1.3"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
-        </button>
-        <img
-          src="/RTFM_project_team/assets/img-modal-mob-fe9796bb.png"
-          srcset="/RTFM_project_team/assets/img-modal-mob-fe9796bb.png "
-          alt="Thank you for confirming your order"
-          class="modal-image"
-        />
-        <h3 class="modal-heading">Thank You</h3>
-        <p class="modal-p">
-          Thank you for choosing Yacht Adventures, your booking details have
-          been received and our team will be in touch shortly to confirm your
-          reservation and provide any additional information or assistance you
-          may need.
-        </p>
-      </div>
-      <div class="ellipse-7268"></div>
-    </div>
-  </div>
-</section>
-
+      </section>
 
       <!-- Alina Stadnyk -->
       <section id="reviews" class="reviews-section">
-  <div class="container reviews-container">
-    <div class="reviews-heading">
-      <h1 class="reviews-title">
-        <span class="reviews-heading-accent">Yacht Adventures</span> take pride
-        in providing the best possible service and experience to our customers
-      </h1>
-      <p class="reviews-desc">
-        Our customers have enjoyed unforgettable moments on our yachts. Don't
-        just take our word for it - read on to find out what they have to say
-        about their journey with us.
-      </p>
-    </div>
-    <ul class="reviews-list">
-      <li class="reviews-item">
-        <img
-          src="/RTFM_project_team/assets/image-1@1x-118b6a94.png"
-          srcset="/RTFM_project_team/assets/image-1@1x-118b6a94.png 1x, /RTFM_project_team/assets/image-1@2x-e54672a0.png 2x"
-          height="48"
-          width="48"
-          class="reviews-photo"
-          alt="photo of John Wax"
-        />
-        <h5 class="reviews-name">John Wax</h5>
-        <p class="reviews-text">
-          I rented the Lagoon 620 with my family for a week-long vacation and it
-          was the best decision ever. The yacht was spacious, comfortable, and
-          luxurious, and the crew took care of everything.
-        </p>
-      </li>
-      <li class="reviews-item">
-        <img
-          src="/RTFM_project_team/assets/image-2@1x-f3a0e8ac.png"
-          srcset="/RTFM_project_team/assets/image-2@1x-f3a0e8ac.png 1x, /RTFM_project_team/assets/image-2@2x-d4a911d2.png 2x"
-          height="48"
-          width="48"
-          class="reviews-photo"
-          alt="photo of Victoria Romashenko"
-        />
-        <h5 class="reviews-name">Victoria Romashenko</h5>
-        <p class="reviews-text">
-          The Sunseeker Manhattan 66 was the perfect choice for our romantic
-          getaway. The yacht was beautifully designed, with all the amenities we
-          needed, and the crew was attentive and friendly.
-        </p>
-      </li>
-      <li class="reviews-item">
-        <img
-          src="/RTFM_project_team/assets/image-3@1x-8af146ce.png"
-          srcset="/RTFM_project_team/assets/image-3@1x-8af146ce.png 1x, /RTFM_project_team/assets/image-3@2x-02ac97b2.png 2x"
-          height="48"
-          width="48"
-          class="reviews-photo"
-          alt="photo of Ihor Trachuk"
-        />
-        <h5 class="reviews-name">Ihor Trachuk</h5>
-        <p class="reviews-text">
-          The Azimut 80 was the most luxurious yacht I've ever been on. The
-          cabins were spacious and elegant, and the outdoor areas were perfect
-          for relaxing and entertaining. Worth every penny!
-        </p>
-      </li>
-    </ul>
-  </div>
-</section>
-
+        <div class="container reviews-container">
+          <div class="reviews-heading">
+            <h1 class="reviews-title">
+              <span class="reviews-heading-accent">Yacht Adventures</span> take
+              pride in providing the best possible service and experience to our
+              customers
+            </h1>
+            <p class="reviews-desc">
+              Our customers have enjoyed unforgettable moments on our yachts.
+              Don't just take our word for it - read on to find out what they
+              have to say about their journey with us.
+            </p>
+          </div>
+          <ul class="reviews-list">
+            <li class="reviews-item">
+              <img
+                src="/RTFM_project_team/assets/image-1@1x-118b6a94.png"
+                srcset="
+                  /RTFM_project_team/assets/image-1@1x-118b6a94.png 1x,
+                  /RTFM_project_team/assets/image-1@2x-e54672a0.png 2x
+                "
+                height="48"
+                width="48"
+                class="reviews-photo"
+                alt="photo of John Wax"
+              />
+              <h5 class="reviews-name">John Wax</h5>
+              <p class="reviews-text">
+                I rented the Lagoon 620 with my family for a week-long vacation
+                and it was the best decision ever. The yacht was spacious,
+                comfortable, and luxurious, and the crew took care of
+                everything.
+              </p>
+            </li>
+            <li class="reviews-item">
+              <img
+                src="/RTFM_project_team/assets/image-2@1x-f3a0e8ac.png"
+                srcset="
+                  /RTFM_project_team/assets/image-2@1x-f3a0e8ac.png 1x,
+                  /RTFM_project_team/assets/image-2@2x-d4a911d2.png 2x
+                "
+                height="48"
+                width="48"
+                class="reviews-photo"
+                alt="photo of Victoria Romashenko"
+              />
+              <h5 class="reviews-name">Victoria Romashenko</h5>
+              <p class="reviews-text">
+                The Sunseeker Manhattan 66 was the perfect choice for our
+                romantic getaway. The yacht was beautifully designed, with all
+                the amenities we needed, and the crew was attentive and
+                friendly.
+              </p>
+            </li>
+            <li class="reviews-item">
+              <img
+                src="/RTFM_project_team/assets/image-3@1x-8af146ce.png"
+                srcset="
+                  /RTFM_project_team/assets/image-3@1x-8af146ce.png 1x,
+                  /RTFM_project_team/assets/image-3@2x-02ac97b2.png 2x
+                "
+                height="48"
+                width="48"
+                class="reviews-photo"
+                alt="photo of Ihor Trachuk"
+              />
+              <h5 class="reviews-name">Ihor Trachuk</h5>
+              <p class="reviews-text">
+                The Azimut 80 was the most luxurious yacht I've ever been on.
+                The cabins were spacious and elegant, and the outdoor areas were
+                perfect for relaxing and entertaining. Worth every penny!
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
 
     <!-- Footer -->
 
     <!-- Maryna Lapa -->
     <footer class="footer">
-  <div class="container footer-top">
-    <div class="back-to-top">
-      <span class="back-to-top-btn">
-        <svg class="icon-arrow-up" width="30" height="30">
-          <use href="/RTFM_project_team/assets/icons-58d63e2f.svg#icon-arrow-up"></use>
-        </svg>
-      </span>
-    </div>
-    <div class="footer-wrapper">
-      <a href="./index.html" class="footer-logo">
-        <svg class="footer-icon" width="23" height="23">
-          <use href="/RTFM_project_team/assets/icons-58d63e2f.svg#icon-ship"></use>
-        </svg>
-        <span class="footer-logo-text">yacht Adventures</span>
-      </a>
-      <ul class="footer-nav-list">
-        <li class="footer-nav-items">
-          <a class="footer-nav-link" href="#about">About</a>
-        </li>
-        <li class="footer-nav-items">
-          <a class="footer-nav-link" href="#yachts">Yachts</a>
-        </li>
-        <li class="footer-nav-items">
-          <a class="footer-nav-link" href="#reviews">Reviews</a>
-        </li>
-      </ul>
-      <div class="footer-networks-wrap">
-        <p class="footer-networks-text">We in social</p>
-        <ul class="footer-networks-list">
-          <li class="footer-networks-items">
-            <a
-              class="footer-networks-link"
-              href="http://facebook.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <svg class="footer-networks-icon" width="18" height="18">
-                <use href="/RTFM_project_team/assets/icons-58d63e2f.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="footer-networks-items">
-            <a
-              class="footer-networks-link"
-              href="http://instagram.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <svg class="footer-networks-icon" width="18" height="18">
-                <use href="/RTFM_project_team/assets/icons-58d63e2f.svg#icon-instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="footer-networks-items">
-            <a
-              class="footer-networks-link"
-              href="http://youtube.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <svg class="footer-networks-icon" width="18" height="18">
-                <use href="/RTFM_project_team/assets/icons-58d63e2f.svg#icon-youtube"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
+      <div class="container footer-top">
+        <div class="back-to-top">
+          <span class="back-to-top-btn">
+            <svg class="icon-arrow-up" width="30" height="30">
+              <use
+                href="/RTFM_project_team/assets/icons-58d63e2f.svg#icon-arrow-up"
+              ></use>
+            </svg>
+          </span>
+        </div>
+        <div class="footer-wrapper">
+          <a href="./index.html" class="footer-logo">
+            <svg class="footer-icon" width="23" height="23">
+              <use
+                href="/RTFM_project_team/assets/icons-58d63e2f.svg#icon-ship"
+              ></use>
+            </svg>
+            <span class="footer-logo-text">yacht Adventures</span>
+          </a>
+          <ul class="footer-nav-list">
+            <li class="footer-nav-items">
+              <a class="footer-nav-link" href="#about">About</a>
+            </li>
+            <li class="footer-nav-items">
+              <a class="footer-nav-link" href="#yachts">Yachts</a>
+            </li>
+            <li class="footer-nav-items">
+              <a class="footer-nav-link" href="#reviews">Reviews</a>
+            </li>
+          </ul>
+          <div class="footer-networks-wrap">
+            <p class="footer-networks-text">We in social</p>
+            <ul class="footer-networks-list">
+              <li class="footer-networks-items">
+                <a
+                  class="footer-networks-link"
+                  href="http://facebook.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg class="footer-networks-icon" width="18" height="18">
+                    <use
+                      href="/RTFM_project_team/assets/icons-58d63e2f.svg#icon-facebook"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-networks-items">
+                <a
+                  class="footer-networks-link"
+                  href="http://instagram.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg class="footer-networks-icon" width="18" height="18">
+                    <use
+                      href="/RTFM_project_team/assets/icons-58d63e2f.svg#icon-instagram"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-networks-items">
+                <a
+                  class="footer-networks-link"
+                  href="http://youtube.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg class="footer-networks-icon" width="18" height="18">
+                    <use
+                      href="/RTFM_project_team/assets/icons-58d63e2f.svg#icon-youtube"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <p class="footer-copyright-text">&copy; 2023. Yacht Adventures</p>
+          <a
+            class="footer-copyright-link"
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            >Privacy Policy</a
+          >
+        </div>
+        <div class="footer-blur-left"></div>
+        <div class="footer-blur-right"></div>
       </div>
-    </div>
-    <div class="footer-copyright">
-      <p class="footer-copyright-text">&copy; 2023. Yacht Adventures</p>
-      <a
-        class="footer-copyright-link"
-        href=""
-        target="_blank"
-        rel="noopener noreferrer"
-        >Privacy Policy</a
-      >
-    </div>
-    <div class="footer-blur-left"></div>
-    <div class="footer-blur-right"></div>
-  </div>
-</footer>
-
-    
+    </footer>
   </body>
 </html>
